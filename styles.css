@@ -13,16 +13,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92vh;
 }
 .container-shop {
     position: relative;
-    width: 1150px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 88vh;
 }
 
 .card-shop {
@@ -137,10 +136,4 @@ body{
 }
 .container-shop .card-shop:nth-child(3) .content-shop a:hover{
     transform: scale(1.1);
-}
-
-footer p{
-    text-align: center;
-    color: rgba(0, 23, 31, 40%);
-    padding: 10px;
 }
